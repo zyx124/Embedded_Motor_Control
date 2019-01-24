@@ -1,0 +1,22 @@
+___awdiv: CODE, 1522 0 91
+_Mode3: CODE, 1217 0 105
+_indexMotor: CODE, 1854 0 35
+_PControl: CODE, 998 0 113
+___ftpack: CODE, 1111 0 106
+_countUp: CODE, 1931 0 15
+_main: CODE, 1819 0 35
+_flashDelay: CODE, 1915 0 16
+___ftadd: CODE, 33 0 331
+_initPort: CODE, 1613 0 65
+__initialization: CODE, 19 0 11
+_Mode0: CODE, 1322 0 105
+_initAtoD_PWM: CODE, 1889 0 26
+_SwitchDelay: CODE, 1946 0 12
+_brakeFlash: CODE, 1740 0 43
+___ftmul: CODE, 646 0 210
+___awtoft: CODE, 1783 0 36
+_isrAD: CODE, 1678 0 62
+___fttol: CODE, 856 0 142
+_PIDControl: CODE, 364 0 282
+___ftge: CODE, 1427 0 95
+Total: 1936

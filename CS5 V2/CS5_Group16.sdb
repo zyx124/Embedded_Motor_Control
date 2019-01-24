@@ -1,0 +1,311 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F737 ]
+[d frameptr 6 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\abdiv.c
+[v ___abdiv __abdiv `(c  1 e 1 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\abmod.c
+[v ___abmod __abmod `(c  1 e 1 0 ]
+"33 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\abtoft.c
+[v ___abtoft __abtoft `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\almod.c
+[v ___almod __almod `(l  1 e 4 0 ]
+"42 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\altoft.c
+[v ___altoft __altoft `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\atdiv.c
+[v ___atdiv __atdiv `(m  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\atmod.c
+[v ___atmod __atmod `(m  1 e 3 0 ]
+"37 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\attoft.c
+[v ___attoft __attoft `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"32 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\ftneg.c
+[v ___ftneg __ftneg `(f  1 e 3 0 ]
+"18 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"44 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+"27 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lbtoft.c
+[v ___lbtoft __lbtoft `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"35 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lltoft.c
+[v ___lltoft __lltoft `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\ltdiv.c
+[v ___ltdiv __ltdiv `(um  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\ltmod.c
+[v ___ltmod __ltmod `(um  1 e 3 0 ]
+"30 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lttoft.c
+[v ___lttoft __lttoft `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"28 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\Umul24.c
+[v ___tmul __tmul `(um  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"49 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"82 C:\Users\Robert Kydd\Documents\Personal\HW\Mechatronics\CS5 V2\CS5_Group16.c
+[v _SwitchDelay SwitchDelay `(v  1 e 0 0 ]
+"87
+[v _flashDelay flashDelay `(v  1 e 0 0 ]
+"92
+[v _initPort initPort `(v  1 e 0 0 ]
+"118
+[v _initAtoD_PWM initAtoD_PWM `(v  1 e 0 0 ]
+"135
+[v _brakeFlash brakeFlash `(v  1 e 0 0 ]
+"151
+[v _countUp countUp `(v  1 e 0 0 ]
+"160
+[v _PControl PControl `(v  1 e 0 0 ]
+"181
+[v _PIDControl PIDControl `(v  1 e 0 0 ]
+"207
+[v _indexMotor indexMotor `(v  1 e 0 0 ]
+"222
+[v _isrAD isrAD `II(v  1 e 0 0 ]
+"238
+[v _Mode0 Mode0 `(v  1 e 0 0 ]
+"282
+[v _Mode3 Mode3 `(v  1 e 0 0 ]
+"325
+[v _main main `(v  1 e 0 0 ]
+"219 C:\Program Files (x86)\Microchip\xc8\v1.33\include\pic16f737.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"280
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+"685
+[v _T2CON T2CON `VEuc  1 e 1 @18 ]
+"836
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @21 ]
+"848
+[v _CCP1CON CCP1CON `VEuc  1 e 1 @23 ]
+"1086
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+"1092
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @31 ]
+"1261
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1322
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1383
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1783
+[v _PR2 PR2 `VEuc  1 e 1 @146 ]
+"2330
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"2590
+[v _ADIE ADIE `VEb  1 e 0 @1126 ]
+"2592
+[v _ADIF ADIF `VEb  1 e 0 @102 ]
+"2716
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"2718
+[v _GO GO `VEb  1 e 0 @250 ]
+"2784
+[v _PEIE PEIE `VEb  1 e 0 @94 ]
+"2844
+[v _RC4 RC4 `VEb  1 e 0 @60 ]
+"2846
+[v _RC5 RC5 `VEb  1 e 0 @61 ]
+"62 C:\Users\Robert Kydd\Documents\Personal\HW\Mechatronics\CS5 V2\CS5_Group16.c
+[v _State State `uc  1 e 1 0 ]
+"63
+[v _Count Count `i  1 e 2 0 ]
+[v _i i `i  1 e 2 0 ]
+"64
+[v _Speed Speed `i  1 e 2 0 ]
+[v _aSpeed aSpeed `i  1 e 2 0 ]
+[v _eCount eCount `i  1 e 2 0 ]
+[v _vRef vRef `i  1 e 2 0 ]
+[v _vError vError `i  1 e 2 0 ]
+"65
+[v _enCount enCount `i  1 e 2 0 ]
+[v _baseVel baseVel `i  1 e 2 0 ]
+"66
+[v _vErrorDiff vErrorDiff `i  1 e 2 0 ]
+[v _vErrorInt vErrorInt `i  1 e 2 0 ]
+"67
+[v _K_p K_p `f  1 e 3 0 ]
+[v _K_i K_i `f  1 e 3 0 ]
+[v _K_d K_d `f  1 e 3 0 ]
+[v _duty duty `f  1 e 3 0 ]
+"72
+[v _blackButton blackButton `b  1 s 0 blackButton ]
+"73
+[v _eddySensor eddySensor `b  1 s 0 eddySensor ]
+"75
+[v _encoder encoder `b  1 s 0 encoder ]
+"76
+[v _brake brake `b  1 s 0 brake ]
+"325
+[v _main main `(v  1 e 0 0 ]
+{
+"362
+} 0
+"92
+[v _initPort initPort `(v  1 e 0 0 ]
+{
+"116
+} 0
+"118
+[v _initAtoD_PWM initAtoD_PWM `(v  1 e 0 0 ]
+{
+"133
+} 0
+"207
+[v _indexMotor indexMotor `(v  1 e 0 0 ]
+{
+"220
+} 0
+"82
+[v _SwitchDelay SwitchDelay `(v  1 e 0 0 ]
+{
+"85
+} 0
+"282
+[v _Mode3 Mode3 `(v  1 e 0 0 ]
+{
+"323
+} 0
+"181
+[v _PIDControl PIDControl `(v  1 e 0 0 ]
+{
+"205
+} 0
+"86 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+{
+"88
+[v ___ftadd@exp1 exp1 `uc  1 a 1 2 ]
+[v ___ftadd@exp2 exp2 `uc  1 a 1 1 ]
+[v ___ftadd@sign sign `uc  1 a 1 0 ]
+"86
+[v ___ftadd@f1 f1 `f  1 p 3 36 ]
+[v ___ftadd@f2 f2 `f  1 p 3 39 ]
+"148
+} 0
+"238 C:\Users\Robert Kydd\Documents\Personal\HW\Mechatronics\CS5 V2\CS5_Group16.c
+[v _Mode0 Mode0 `(v  1 e 0 0 ]
+{
+"280
+} 0
+"151
+[v _countUp countUp `(v  1 e 0 0 ]
+{
+"158
+} 0
+"135
+[v _brakeFlash brakeFlash `(v  1 e 0 0 ]
+{
+"149
+} 0
+"87
+[v _flashDelay flashDelay `(v  1 e 0 0 ]
+{
+"90
+} 0
+"160
+[v _PControl PControl `(v  1 e 0 0 ]
+{
+"179
+} 0
+"44 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+{
+"47
+[v ___fttol@lval lval `ul  1 a 4 15 ]
+"46
+[v ___fttol@exp1 exp1 `uc  1 a 1 19 ]
+[v ___fttol@sign1 sign1 `uc  1 a 1 14 ]
+"44
+[v ___fttol@f1 f1 `f  1 p 3 6 ]
+"73
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+{
+"65
+[v ___ftmul@f3_as_product f3_as_product `um  1 a 3 31 ]
+"64
+[v ___ftmul@sign sign `uc  1 a 1 35 ]
+[v ___ftmul@cntr cntr `uc  1 a 1 34 ]
+[v ___ftmul@exp exp `uc  1 a 1 30 ]
+"62
+[v ___ftmul@f1 f1 `f  1 p 3 20 ]
+[v ___ftmul@f2 f2 `f  1 p 3 23 ]
+"157
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+{
+[v ___ftge@ff1 ff1 `f  1 p 3 6 ]
+[v ___ftge@ff2 ff2 `f  1 p 3 9 ]
+"13
+} 0
+"32 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+{
+"34
+[v ___awtoft@sign sign `uc  1 a 1 19 ]
+"32
+[v ___awtoft@c c `i  1 p 2 14 ]
+"42
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+{
+[v ___ftpack@arg arg `um  1 p 3 6 ]
+[v ___ftpack@exp exp `uc  1 p 1 9 ]
+[v ___ftpack@sign sign `uc  1 p 1 10 ]
+"86
+} 0
+"222 C:\Users\Robert Kydd\Documents\Personal\HW\Mechatronics\CS5 V2\CS5_Group16.c
+[v _isrAD isrAD `II(v  1 e 0 0 ]
+{
+"236
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"11
+[v ___awdiv@quotient quotient `i  1 a 2 7 ]
+"12
+[v ___awdiv@sign sign `uc  1 a 1 6 ]
+[v ___awdiv@counter counter `uc  1 a 1 5 ]
+"6
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"42
+} 0
